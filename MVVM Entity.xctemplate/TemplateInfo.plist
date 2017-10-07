@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>MVVM Entity</string>
+	<key>Summary</key>
+	<string>MVVM Entity</string>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Name:</string>
+			<key>Description</key>
+			<string>The name of view controlled and view model</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>controllerClass</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Controller Class:</string>
+			<key>Description</key>
+			<string>What class to subclass by view controller</string>
+			<key>Type</key>
+			<string>class</string>
+			<key>Default</key>
+			<string>BaseViewController</string>
+			<key>Values</key>
+			<array>
+				<string>UIViewController</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>modelClass</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Model Class:</string>
+			<key>Description</key>
+			<string>What class to subclass by view model</string>
+			<key>Type</key>
+			<string>class</string>
+			<key>Default</key>
+			<string>BaseViewModel</string>
+			<key>Values</key>
+			<array>
+				<string>BaseViewModel</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>XIB</string>
+			<key>Name</key>
+			<string>Also create XIB file for user interface</string>
+			<key>Description</key>
+			<string>Whether to create a XIB file with the same name</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>false</string>
+		</dict>
+	</array>
+</dict>
+</plist>
